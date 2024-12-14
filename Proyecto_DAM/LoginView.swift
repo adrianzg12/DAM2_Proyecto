@@ -10,7 +10,7 @@ struct LoginView: View {
         
         NavigationView {
             if isLoggedIn {
-                ContentView()
+                ListaComprasView()
             } else {
                 VStack(spacing: 20) {
                     Text("Login").font(.largeTitle)
