@@ -16,6 +16,7 @@
 		B780946A2D0DBF71003EB029 /* CoreDataManagerUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78094692D0DBF71003EB029 /* CoreDataManagerUsuario.swift */; };
 		B780946C2D0DC6B0003EB029 /* RegistroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780946B2D0DC6B0003EB029 /* RegistroView.swift */; };
 		B780946E2D0DC9B1003EB029 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780946D2D0DC9B1003EB029 /* LoginView.swift */; };
+		B7D53C102D0DD8E000D940F9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B7D53C0F2D0DD8E000D940F9 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D53C102D0DD8E000D940F9 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +100,9 @@
 			dependencies = (
 			);
 			name = Proyecto_DAM;
+			packageProductDependencies = (
+				B7D53C0F2D0DD8E000D940F9 /* Alamofire */,
+			);
 			productName = Proyecto_DAM;
 			productReference = B78094532D0DB8D8003EB029 /* Proyecto_DAM.app */;
 			productType = "com.apple.product-type.application";
@@ -126,6 +131,9 @@
 				Base,
 			);
 			mainGroup = B780944A2D0DB8D8003EB029;
+			packageReferences = (
+				B7D53C0E2D0DD8E000D940F9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = B78094542D0DB8D8003EB029 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -357,6 +365,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B7D53C0E2D0DD8E000D940F9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B7D53C0F2D0DD8E000D940F9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7D53C0E2D0DD8E000D940F9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		B78094612D0DB8D9003EB029 /* Proyecto_DAM.xcdatamodeld */ = {
