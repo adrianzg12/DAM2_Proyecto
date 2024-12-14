@@ -79,24 +79,27 @@ struct ListaComprasView: View {
                 
                 // Lista de artículos
                 List(articulos, id: \.self, selection: $articulosSeleccionados) { articulo in
-                    HStack {
-                        VStack(alignment: .leading) {
-                            Text(articulo.nombre ?? "")
-                                .font(.headline)
-                            Text("Cantidad: \(articulo.cantidad)")
-                                .font(.subheadline)
-                            Text("Prioridad: \(articulo.prioridad ?? "")")
-                                .font(.subheadline)
+                    NavigationLink(destination: DetalleArticuloView(articulo: articulo)) {
+                        HStack {
+                            VStack(alignment: .leading) {
+                                Text(articulo.nombre ?? "")
+                                    .font(.headline)
+                                Text("Cantidad: \(articulo.cantidad)")
+                                    .font(.subheadline)
+                                Text("Prioridad: \(articulo.prioridad ?? "")")
+                                    .font(.subheadline)
+                                
+                            }
+                            Spacer()
+                            if articulo.comprado {
+                                Text("Comprado")
+                                    .foregroundColor(.green)
+                            }
                         }
-                        Spacer()
-                        if articulo.comprado {
-                            Text("Comprado")
-                                .foregroundColor(.green)
-                        }
+                        .padding()
+                        .background(articulosSeleccionados.contains(articulo) ? Color.blue.opacity(0.1) : Color.clear)
+                        .cornerRadius(8)
                     }
-                    .padding()
-                    .background(articulosSeleccionados.contains(articulo) ? Color.blue.opacity(0.1) : Color.clear)
-                    .cornerRadius(8)
                 }
                 
                 // Barra de botones para eliminar y marcar como comprados

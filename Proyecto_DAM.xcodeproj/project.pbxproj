@@ -21,6 +21,7 @@
 		B78094762D0DE4B2003EB029 /* CoreDataManagerCompras.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78094752D0DE4B2003EB029 /* CoreDataManagerCompras.swift */; };
 		B78094782D0DE6B4003EB029 /* ListaComprasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78094772D0DE6B4003EB029 /* ListaComprasView.swift */; };
 		B780947A2D0DE6F3003EB029 /* AgregarArticuloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78094792D0DE6F3003EB029 /* AgregarArticuloView.swift */; };
+		B780947C2D0DF756003EB029 /* DetalleArticuloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780947B2D0DF756003EB029 /* DetalleArticuloView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B78094752D0DE4B2003EB029 /* CoreDataManagerCompras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerCompras.swift; sourceTree = "<group>"; };
 		B78094772D0DE6B4003EB029 /* ListaComprasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaComprasView.swift; sourceTree = "<group>"; };
 		B78094792D0DE6F3003EB029 /* AgregarArticuloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarArticuloView.swift; sourceTree = "<group>"; };
+		B780947B2D0DF756003EB029 /* DetalleArticuloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleArticuloView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				B78094752D0DE4B2003EB029 /* CoreDataManagerCompras.swift */,
 				B78094772D0DE6B4003EB029 /* ListaComprasView.swift */,
 				B78094792D0DE6F3003EB029 /* AgregarArticuloView.swift */,
+				B780947B2D0DF756003EB029 /* DetalleArticuloView.swift */,
 			);
 			path = Proyecto_DAM;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				B78094602D0DB8D9003EB029 /* Persistence.swift in Sources */,
 				B78094782D0DE6B4003EB029 /* ListaComprasView.swift in Sources */,
 				B78094762D0DE4B2003EB029 /* CoreDataManagerCompras.swift in Sources */,
+				B780947C2D0DF756003EB029 /* DetalleArticuloView.swift in Sources */,
 				B780946E2D0DC9B1003EB029 /* LoginView.swift in Sources */,
 				B78094592D0DB8D8003EB029 /* ContentView.swift in Sources */,
 				B78094572D0DB8D8003EB029 /* Proyecto_DAMApp.swift in Sources */,
