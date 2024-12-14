@@ -8,9 +8,7 @@ struct CoreDataManagerUsuario {
     static let shared = CoreDataManagerUsuario()
 
     private let context = PersistenceController.shared.viewContext
-    
-    // Función para guardar un usuario
-    func guardarUsuario(email: String, password: String, nombre: String) throws {
+        func guardarUsuario(email: String, password: String, nombre: String) throws {
         let usuario = Usuario(context: context)
         usuario.id = UUID()
         usuario.email = email
@@ -20,7 +18,6 @@ struct CoreDataManagerUsuario {
         try context.save()
     }
     
-    // Función para validar un usuario
     func validarUsuario(email: String, password: String) -> Usuario? {
         let request: NSFetchRequest<Usuario> = Usuario.fetchRequest()
         request.predicate = NSPredicate(format: "email == %@ AND password == %@", email, password)
