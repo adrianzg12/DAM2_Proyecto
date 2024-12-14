@@ -13,6 +13,9 @@
 		B780945E2D0DB8D9003EB029 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B780945D2D0DB8D9003EB029 /* Preview Assets.xcassets */; };
 		B78094602D0DB8D9003EB029 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780945F2D0DB8D9003EB029 /* Persistence.swift */; };
 		B78094632D0DB8D9003EB029 /* Proyecto_DAM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B78094612D0DB8D9003EB029 /* Proyecto_DAM.xcdatamodeld */; };
+		B780946A2D0DBF71003EB029 /* CoreDataManagerUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78094692D0DBF71003EB029 /* CoreDataManagerUsuario.swift */; };
+		B780946C2D0DC6B0003EB029 /* RegistroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780946B2D0DC6B0003EB029 /* RegistroView.swift */; };
+		B780946E2D0DC9B1003EB029 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780946D2D0DC9B1003EB029 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		B780945D2D0DB8D9003EB029 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B780945F2D0DB8D9003EB029 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B78094622D0DB8D9003EB029 /* Proyecto_DAM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Proyecto_DAM.xcdatamodel; sourceTree = "<group>"; };
+		B78094692D0DBF71003EB029 /* CoreDataManagerUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerUsuario.swift; sourceTree = "<group>"; };
+		B780946B2D0DC6B0003EB029 /* RegistroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroView.swift; sourceTree = "<group>"; };
+		B780946D2D0DC9B1003EB029 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				B780945F2D0DB8D9003EB029 /* Persistence.swift */,
 				B78094612D0DB8D9003EB029 /* Proyecto_DAM.xcdatamodeld */,
 				B780945C2D0DB8D9003EB029 /* Preview Content */,
+				B78094692D0DBF71003EB029 /* CoreDataManagerUsuario.swift */,
+				B780946B2D0DC6B0003EB029 /* RegistroView.swift */,
+				B780946D2D0DC9B1003EB029 /* LoginView.swift */,
 			);
 			path = Proyecto_DAM;
 			sourceTree = "<group>";
@@ -144,9 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B78094602D0DB8D9003EB029 /* Persistence.swift in Sources */,
+				B780946E2D0DC9B1003EB029 /* LoginView.swift in Sources */,
 				B78094592D0DB8D8003EB029 /* ContentView.swift in Sources */,
 				B78094572D0DB8D8003EB029 /* Proyecto_DAMApp.swift in Sources */,
+				B780946C2D0DC6B0003EB029 /* RegistroView.swift in Sources */,
 				B78094632D0DB8D9003EB029 /* Proyecto_DAM.xcdatamodeld in Sources */,
+				B780946A2D0DBF71003EB029 /* CoreDataManagerUsuario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

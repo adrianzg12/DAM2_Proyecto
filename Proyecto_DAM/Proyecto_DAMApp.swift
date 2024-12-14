@@ -13,7 +13,7 @@ struct Proyecto_DAMApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
